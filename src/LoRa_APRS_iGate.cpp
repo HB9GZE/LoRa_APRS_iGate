@@ -52,7 +52,7 @@ void setup() {
   LoRaSystem.getLogger().setSerial(&Serial);
   setWiFiLogger(&LoRaSystem.getLogger());
   delay(500);
-  LoRaSystem.getLogger().log(logging::LoggerLevel::LOGGER_LEVEL_INFO, MODULE_NAME, "LoRa APRS iGate von HB9GZE ");
+  LoRaSystem.getLogger().log(logging::LoggerLevel::LOGGER_LEVEL_INFO, MODULE_NAME, "LoRa APRS iGate von HB9GZE");
   LoRaSystem.getLogger().log(logging::LoggerLevel::LOGGER_LEVEL_INFO, MODULE_NAME, "Version: %s", VERSION);
 
   std::list<BoardConfig const *> boardConfigs;
