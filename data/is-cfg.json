@@ -1,5 +1,5 @@
 {
-	"callsign": "NOCALL-10",
+	"callsign": "HB9GZE-10",
 	"network": {
 		"DHCP": true,
 		"static": {
@@ -11,30 +11,30 @@
 		},
 		"hostname": {
 			"overwrite": false,
-			"name": "NOCALL-10"
+			"name": "HB9GZE-10"
 		}
 	},
 	"wifi": {
-		"active": true,
+		"active": false,
 		"AP": [
 			{
-				"SSID": "YOURSSID",
-				"password": "YOURPASSWORD"
+				"SSID": "AtolliX",
+				"password": "LetMeIn8406"
 			}
 		]
 	},
 	"beacon": {
-		"message": "LoRa iGATE & Digi, Info: github.com/lora-aprs/LoRa_APRS_iGate",
+		"message": "LoRa iGATE",
 		"position": {
-			"latitude": 0.000000,
-			"longitude": 0.000000
+			"latitude": 47.49540,
+			"longitude": 8.71596
 		},
 		"use_gps": false,
 		"timeout": 15
 	},
 	"aprs_is": {
 		"active": true,
-		"passcode": "",
+		"passcode": "22690",
 		"server": "euro.aprs2.net",
 		"port": 14580
 	},
@@ -59,7 +59,7 @@
 		"turn180": true
 	},
 	"ftp": {
-		"active": false,
+		"active": true,
 		"user": [
 			{
 				"name": "ftp",
